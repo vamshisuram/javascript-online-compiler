@@ -1,0 +1,56 @@
+
+textarea {
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    /* background-color: #f0f0f0; */
+    background: none;
+    &:focus {
+        outline: none;
+    }
+}
+.compiler {
+    display: flex;
+    gap: 5px;
+    padding-top: 20px;
+}
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+#inputside {
+    border: 1px solid gray;
+    width: 50%;
+    padding: 5px;
+}
+
+#middleside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &> button {
+      width: 50px;
+      height: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      border: 1px solid purple;
+    }
+
+}
+
+#outputside {
+    font-family: 'Fira Code', monospace;
+    border: 1px solid gray;
+    width: 50%;
+    padding: 5px;
+}
+
+div {
+    border-radius: 4px;
+}
